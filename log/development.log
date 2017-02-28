@@ -1671,3 +1671,1614 @@ Processing by RecipesController#index as HTML
 Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-02-26 18:46:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (7.3ms)
+Completed 200 OK in 150ms (Views: 141.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-26 18:46:14 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 43ms (Views: 41.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-26 18:46:16 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (34.2ms)
+  Rendered recipes/new.html.haml within layouts/application (36.1ms)
+Completed 200 OK in 73ms (Views: 71.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-26 18:46:23 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (3.8ms)
+Completed 200 OK in 49ms (Views: 47.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/2" for 127.0.0.1 at 2017-02-26 18:47:46 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 36.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/3" for 127.0.0.1 at 2017-02-26 18:47:49 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:18 +0100
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (25.1ms)
+  Rendered recipes/index.html.haml within layouts/application (40.8ms)
+Completed 200 OK in 572ms (Views: 545.1ms | ActiveRecord: 0.6ms)
+
+
+Completed 200 OK in 570ms (Views: 545.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:21 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:22:23 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (214.7ms)
+  Rendered recipes/new.html.haml within layouts/application (224.6ms)
+Completed 200 OK in 264ms (Views: 242.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:22:25 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (9.1ms)
+  Rendered recipes/new.html.haml within layouts/application (11.0ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:26 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 23.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:28 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:22:29 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 24ms (Views: 22.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddAttachmentImageToRecipes (20170228183733)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class AddAttachmentImageToRecipes < ActiveRecord::Migration[4.2] (called from load at /usr/local/bin/rake:22)
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "recipes" ADD "image_file_name" varchar[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "recipes" ADD "image_content_type" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[35mALTER TABLE "recipes" ADD "image_file_size" integer[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "recipes" ADD "image_updated_at" datetime[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170228183733"]]
+  [1m[35m (12.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:42:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (18.3ms)
+Completed 200 OK in 205ms (Views: 192.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:42:06 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 30ms (Views: 28.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:43:18 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (85.1ms)
+  Rendered recipes/new.html.haml within layouts/application (88.1ms)
+Completed 200 OK in 122ms (Views: 120.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 19:43:53 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OdCzZAktXXyxv4y1fv1npeG5FF46Y4c5Ano15Ht+kVOjw/snQX7vToXKvSUytPwkeloehr3vSpCvqnl1klqR/g==", "recipe"=>{"title"=>"This is recipe with image", "description"=>"Cevapiiiii", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f70be9cf7f8 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-14289-84id0c.jpg>, @original_filename="full_cevapi.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"full_cevapi.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/3db41195b0059947c9f1bf0143cfb04220170228-14289-mzs27h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/3db41195b0059947c9f1bf0143cfb04220170228-14289-mzs27h.jpg[0]'
+Command :: convert '/tmp/3db41195b0059947c9f1bf0143cfb04220170228-14289-mzs27h.jpg[0]' -auto-orient -resize "x400" -crop "400x400+100+0" +repage '/tmp/a4f6a2ed9d9228429c2d44278e4851c520170228-14289-1dhqlaa'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/3db41195b0059947c9f1bf0143cfb04220170228-14289-1qdpgq2.jpg'
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "This is recipe with image"], ["description", "Cevapiiiii"], ["created_at", 2017-02-28 18:43:53 UTC], ["updated_at", 2017-02-28 18:43:53 UTC], ["image_file_name", "full_cevapi.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 139020], ["image_updated_at", 2017-02-28 18:43:53 UTC]]
+  [1m[35m (43.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/4
+Completed 302 Found in 225ms (ActiveRecord: 44.4ms)
+
+
+Started GET "/recipes/4" for 127.0.0.1 at 2017-02-28 19:43:53 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (1.6ms)
+Completed 200 OK in 36ms (Views: 20.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/4" for 127.0.0.1 at 2017-02-28 19:46:06 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes/4" for 127.0.0.1 at 2017-02-28 19:47:18 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (1.7ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:47:20 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:20 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (33.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.8ms)
+Started GET "/recipes/4" for 127.0.0.1 at 2017-02-28 19:47:23 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.3ms)
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.2ms)
+
+
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.7ms)
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:28 +0100
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:47:28 +0100
+  
+Processing by RecipesController#index as HTML
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+  Rendering recipes/index.html.haml within layouts/application
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (7.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.2ms)
+
+
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.8ms)
+Started GET "/recipes/3" for 127.0.0.1 at 2017-02-28 19:47:34 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.3ms)
+Started DELETE "/recipes/3" for 127.0.0.1 at 2017-02-28 19:47:41 +0100
+Processing by RecipesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vp/CBd0WTbB1Mcfc9xVAv/4Fg85X497KL9fhemGbPN4kjIpGlUX/gkFE9ky7XNs+ZeaJFtBvE2OCB63riL88cw==", "id"=>"3"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = ?[0m  [["id", 3]]
+  [1m[35m (47.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 51ms (ActiveRecord: 48.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:47:41 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.4ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (2.8ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:41 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (3.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (25.3ms)
+Started GET "/recipes/2" for 127.0.0.1 at 2017-02-28 19:47:44 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 19.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images/medium/missing.png" for 127.0.0.1 at 2017-02-28 19:47:44 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/images/medium/missing.png"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.8ms)
+Started DELETE "/recipes/2" for 127.0.0.1 at 2017-02-28 19:47:52 +0100
+Processing by RecipesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7c94QLidh5BfGP6D1uIzf/BeDLTB8SHTGs/NZMJXwbJ33DAD8M41omttzxOaq6j+a70GbEZ97Hq3H4H1K3PBHw==", "id"=>"2"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "recipes" WHERE "recipes"."id" = ?[0m  [["id", 2]]
+  [1m[35m (13.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 17ms (ActiveRecord: 14.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:47:52 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:48:05 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:49:23 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (6.7ms)
+  Rendered recipes/new.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 19:49:48 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+xG66MPVXZ+B6+TemXD/J9FRsSSJabIPDo4plAYQCIZhAvKri4bvrbWe1U7VOWSmSrK7/A7lf6ajXmUF7zQIKw==", "recipe"=>{"title"=>"Raffaelo", "description"=>"O.O", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f70bebc07d8 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-14289-1i4idzq.jpg>, @original_filename="raffaello.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"raffaello.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/54dbd582fa96458d76338c255329d68420170228-14289-c4rtxh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/54dbd582fa96458d76338c255329d68420170228-14289-c4rtxh.jpg[0]'
+Command :: convert '/tmp/54dbd582fa96458d76338c255329d68420170228-14289-c4rtxh.jpg[0]' -auto-orient -resize "x400" -crop "400x400+100+0" +repage '/tmp/457a7199ece7f5aa3ed954febd0b017420170228-14289-1n5sp8a'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/54dbd582fa96458d76338c255329d68420170228-14289-gs313g.jpg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Raffaelo"], ["description", "O.O"], ["created_at", 2017-02-28 18:49:48 UTC], ["updated_at", 2017-02-28 18:49:48 UTC], ["image_file_name", "raffaello.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 51828], ["image_updated_at", 2017-02-28 18:49:48 UTC]]
+  [1m[35m (82.5ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/5
+Completed 302 Found in 285ms (ActiveRecord: 83.2ms)
+
+
+Started GET "/recipes/5" for 127.0.0.1 at 2017-02-28 19:49:48 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mRecipe Load (0.3ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.7ms)
+Completed 200 OK in 31ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:49:52 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (3.2ms)
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:50:14 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (6.5ms)
+  Rendered recipes/new.html.haml within layouts/application (8.4ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 19:52:13 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UTTsScuub6Ema29hugwxoEm39Be0Y3cB20LecGUMb87LJ6QKg/3dkxIeXvH2Raoh0lT+zzPvuqh2kpLhjChvYw==", "recipe"=>{"title"=>"Ramen", "description"=>"itadakimasu", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f70c0921070 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-14289-qkp1kb.jpeg>, @original_filename="ramen.jpeg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"ramen.jpeg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/f88008dc63a67983e5824dafa093566220170228-14289-c612cj.jpeg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/f88008dc63a67983e5824dafa093566220170228-14289-c612cj.jpeg[0]'
+Command :: convert '/tmp/f88008dc63a67983e5824dafa093566220170228-14289-c612cj.jpeg[0]' -auto-orient -resize "x400" -crop "400x400+99+0" +repage '/tmp/fac8b7b066f44a55ad93c318edcaea4720170228-14289-1ousl6g'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/f88008dc63a67983e5824dafa093566220170228-14289-5lc25y.jpeg'
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Ramen"], ["description", "itadakimasu"], ["created_at", 2017-02-28 18:52:13 UTC], ["updated_at", 2017-02-28 18:52:13 UTC], ["image_file_name", "ramen.jpeg"], ["image_content_type", "image/jpeg"], ["image_file_size", 400059], ["image_updated_at", 2017-02-28 18:52:13 UTC]]
+  [1m[35m (39.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/6
+Completed 302 Found in 213ms (ActiveRecord: 39.9ms)
+
+
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 19:52:13 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:52:17 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:55:30 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (4.5ms)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 19:57:37 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (9.4ms)
+  Rendered recipes/new.html.haml within layouts/application (11.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 19:57:54 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Azxxmvi2zJi/mUHppnmp04utMCyyG+Sa1mUXvC/6jVOZLznZsOV+qovscHnqMDJSEE469DWXKTN7tVstxt6N/g==", "recipe"=>{"title"=>"Pasta", "description"=>"Yummyyy", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f70b4903400 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-14289-1xsv86u.jpg>, @original_filename="pasta.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/871235bcf942b6904980603b4cf5f18920170228-14289-1yl3xk4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/871235bcf942b6904980603b4cf5f18920170228-14289-1yl3xk4.jpg[0]'
+Command :: convert '/tmp/871235bcf942b6904980603b4cf5f18920170228-14289-1yl3xk4.jpg[0]' -auto-orient -resize "x400" -crop "400x400+67+0" +repage '/tmp/485991dc8a93b1b3cdb67ce09af3f0e220170228-14289-jfzz3u'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/871235bcf942b6904980603b4cf5f18920170228-14289-r7fb6u.jpg'
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Pasta"], ["description", "Yummyyy"], ["created_at", 2017-02-28 18:57:54 UTC], ["updated_at", 2017-02-28 18:57:54 UTC], ["image_file_name", "pasta.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 10415], ["image_updated_at", 2017-02-28 18:57:54 UTC]]
+  [1m[35m (18.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/7
+Completed 302 Found in 65ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/recipes/7" for 127.0.0.1 at 2017-02-28 19:57:54 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.6ms)
+Completed 200 OK in 28ms (Views: 26.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 19:57:57 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (6.7ms)
+Completed 200 OK in 33ms (Views: 30.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 20:00:55 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (4.1ms)
+Completed 200 OK in 1222ms (Views: 1221.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:00:59 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (3.3ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:01:31 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateIngredients (20170228190527)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "ingredients" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mselect sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_ingredients_on_recipe_id" ON "ingredients" ("recipe_id")[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170228190527"]]
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+Migrating to CreateDirections (20170228190556)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "directions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "step" text, "recipe_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_directions_on_recipe_id" ON "directions" ("recipe_id")[0m
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20170228190556"]]
+  [1m[35m (14.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_directions_on_recipe_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_directions_on_recipe_id' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m  [1m[34m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_ingredients_on_recipe_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_ingredients_on_recipe_id' AND type='index'
+[0m
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:12:08 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No association found for name `directions'. Has it been defined yet?):
+  
+app/models/recipe.rb:8:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<top (required)>'
+app/controllers/recipes_controller.rb:46:in `find_recipe'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.6ms)
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:12:10 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No association found for name `directions'. Has it been defined yet?):
+  
+app/models/recipe.rb:8:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<top (required)>'
+app/controllers/recipes_controller.rb:46:in `find_recipe'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.6ms)
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:22:50 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No association found for name `directions'. Has it been defined yet?):
+  
+app/models/recipe.rb:8:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<top (required)>'
+app/controllers/recipes_controller.rb:46:in `find_recipe'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.1ms)
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:23:09 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (No association found for name `directions'. Has it been defined yet?):
+  
+app/models/recipe.rb:8:in `<class:Recipe>'
+app/models/recipe.rb:1:in `<top (required)>'
+app/controllers/recipes_controller.rb:46:in `find_recipe'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.0ms)
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:25:12 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 1200ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'cacoon' with type 'application/javascript'
+Checked in these paths: 
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/assets/config
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/assets/images
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/assets/javascripts
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/assets/stylesheets
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/vendor/assets/javascripts
+  /home/zoneman/Code/kindergarden/demo/rails-recipe-box/vendor/assets/stylesheets
+  /usr/local/lib/ruby/gems/2.3.0/gems/cocoon-1.2.9/app/assets/javascripts
+  /usr/local/lib/ruby/gems/2.3.0/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /usr/local/lib/ruby/gems/2.3.0/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /usr/local/lib/ruby/gems/2.3.0/gems/actioncable-5.0.1/lib/assets/compiled
+  /usr/local/lib/ruby/gems/2.3.0/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/fonts
+  /usr/local/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.7/assets/images):
+    2: %html
+    3: %head
+    4:   %title Recipe App
+    5:   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    6:   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    7:   = csrf_meta_tags
+    8: %body
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.haml:5:in `_app_views_layouts_application_html_haml__4374836602965106984_70075546664920'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.3ms)
+Started GET "/recipes/6" for 127.0.0.1 at 2017-02-28 20:26:11 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (1.5ms)
+Completed 200 OK in 282ms (Views: 279.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-28 20:26:15 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (7.5ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:26:35 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (2.0ms)
+  Rendered recipes/new.html.haml within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: "\t\t\t\t\t " used for indentation, but the rest of the document was indented using 1 tab.):
+    17: 				%h3 Ingredients
+    18: 				#ingredients
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 					 = render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 						= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+  
+app/views/recipes/_form.html.haml:20
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075567437460'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.1ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:27:26 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (3.9ms)
+  Rendered recipes/new.html.haml within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:20: syntax error, unexpected ')'
+));}\n        #{_hamlout.forma...
+ ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+));}\n        <div class='links'>\n          #{_hamlo...
+                        ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:21: syntax error, unexpected $undefined
+...}\n        <div class='links'>\n          #{_hamlout.adjust_...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected '}', expecting keyword_end
+));}\n        </div>\n      </div...
+    ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+...\n        </div>\n      </div>\n    </div>\n  </div>\n  #{_h...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n  #{_hamlout.adjust_tabs(-4)...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: syntax error, unexpected '}', expecting keyword_end
+));}\n</div>\n", -1, false);end;_...
+    ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: unterminated regexp meets end of file
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/recipes/_form.html.haml:20: syntax error, unexpected ')'
+app/views/recipes/_form.html.haml:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/recipes/_form.html.haml:21: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:23: syntax error, unexpected '}', expecting keyword_end
+app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:26: syntax error, unexpected '}', expecting keyword_end
+app/views/recipes/_form.html.haml:26: unterminated regexp meets end of file
+app/views/recipes/_form.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075565746180'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.3ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:27:27 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (3.2ms)
+  Rendered recipes/new.html.haml within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:20: syntax error, unexpected ')'
+));}\n        #{_hamlout.forma...
+ ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+));}\n        <div class='links'>\n          #{_hamlo...
+                        ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:21: syntax error, unexpected $undefined
+...}\n        <div class='links'>\n          #{_hamlout.adjust_...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected '}', expecting keyword_end
+));}\n        </div>\n      </div...
+    ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+...\n        </div>\n      </div>\n    </div>\n  </div>\n  #{_h...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+...  </div>\n    </div>\n  </div>\n  #{_hamlout.adjust_tabs(-4)...
+...                               ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: syntax error, unexpected '}', expecting keyword_end
+));}\n</div>\n", -1, false);end;_...
+    ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: unterminated regexp meets end of file
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_form.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/recipes/_form.html.haml:20: syntax error, unexpected ')'
+app/views/recipes/_form.html.haml:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+app/views/recipes/_form.html.haml:21: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:23: syntax error, unexpected '}', expecting keyword_end
+app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:23: unknown regexp options - dv
+app/views/recipes/_form.html.haml:23: syntax error, unexpected $undefined
+app/views/recipes/_form.html.haml:26: syntax error, unexpected '}', expecting keyword_end
+app/views/recipes/_form.html.haml:26: unterminated regexp meets end of file
+app/views/recipes/_form.html.haml:26: syntax error, unexpected end-of-input, expecting keyword_end
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075571254700'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:29:32 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (110.4ms)
+  Rendered recipes/new.html.haml within layouts/application (111.9ms)
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredient_fields, application/_ingredient_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 						= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_47018433720940'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_47018433720940'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_47018434002520'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.3ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:29:56 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (9.8ms)
+  Rendered recipes/new.html.haml within layouts/application (11.6ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredient_fields, application/_ingredient_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 					= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075344277740'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075344277740'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075344370420'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:29:57 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (9.8ms)
+  Rendered recipes/new.html.haml within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredient_fields, application/_ingredient_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 					= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075567175540'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075567175540'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075567271720'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:30:02 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (1.2ms)
+  Rendered recipes/new.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The line was indented 2 levels deeper than the previous line.):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 							= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075567148040'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.7ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:30:07 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (12.7ms)
+  Rendered recipes/new.html.haml within layouts/application (14.3ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredient_fields, application/_ingredient_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 						= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075566882300'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075566882300'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075568194240'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.5ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:30:08 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (10.0ms)
+  Rendered recipes/new.html.haml within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredient_fields, application/_ingredient_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 						= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default"
+    23: 
+    24: 
+    25: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_47018432628700'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_47018432628700'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_47018432838460'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.5ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:31:33 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (1.1ms)
+  Rendered recipes/_form.html.haml (11.7ms)
+  Rendered recipes/new.html.haml within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:4: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected $undefined
+));}\n  </div>\n</div>\n", -2, false);::Haml::Util.h...
+                       ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: unterminated string meets end of file
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/recipes/_ingredient_fields.html.haml:4: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+app/views/recipes/_ingredient_fields.html.haml:5: unknown regexp options - dv
+app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected $undefined
+app/views/recipes/_ingredient_fields.html.haml:5: unterminated string meets end of file
+app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075569688920'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075569688920'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075574147380'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:31:34 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (1.1ms)
+  Rendered recipes/_form.html.haml (10.2ms)
+  Rendered recipes/new.html.haml within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:4: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: unknown regexp options - dv
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected $undefined
+));}\n  </div>\n</div>\n", -2, false);::Haml::Util.h...
+                       ^
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: unterminated string meets end of file
+/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/recipes/_ingredient_fields.html.haml:4: syntax error, unexpected '\n', expecting &. or :: or '[' or '.'
+app/views/recipes/_ingredient_fields.html.haml:5: unknown regexp options - dv
+app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected $undefined
+app/views/recipes/_ingredient_fields.html.haml:5: unterminated string meets end of file
+app/views/recipes/_ingredient_fields.html.haml:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/recipes/_form.html.haml:22:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075555168320'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075555168320'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075555947240'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:32:32 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.7ms)
+  Rendered recipes/_form.html.haml (12.6ms)
+  Rendered recipes/new.html.haml within layouts/application (14.5ms)
+Completed 200 OK in 40ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:32:33 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.5ms)
+  Rendered recipes/_form.html.haml (11.6ms)
+  Rendered recipes/new.html.haml within layouts/application (13.0ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:38:28 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (0.9ms)
+  Rendered recipes/new.html.haml within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: "\t\t\t\t\t " used for indentation, but the rest of the document was indented using 1 tab.):
+    24: 				%h3 Directions
+    25: 				#directions
+    26: 					= f.simple_fields_for :directions do |direction|
+    27: 					 = render 'direction_fields', f: direction
+    28: 					.links
+    29: 						= link_to_add_association 'Add Step', f, :directions, class: "btn btn-default add-button"
+    30: 
+  
+app/views/recipes/_form.html.haml:27
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075566934580'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.3ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:38:30 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (1.4ms)
+  Rendered recipes/new.html.haml within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Inconsistent indentation: "\t\t\t\t\t " used for indentation, but the rest of the document was indented using 1 tab.):
+    24: 				%h3 Directions
+    25: 				#directions
+    26: 					= f.simple_fields_for :directions do |direction|
+    27: 					 = render 'direction_fields', f: direction
+    28: 					.links
+    29: 						= link_to_add_association 'Add Step', f, :directions, class: "btn btn-default add-button"
+    30: 
+  
+app/views/recipes/_form.html.haml:27
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075549172800'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:39:28 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.9ms)
+  Rendered recipes/_form.html.haml (18.6ms)
+  Rendered recipes/new.html.haml within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_direction_fields, application/_direction_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    26: 					= f.simple_fields_for :directions do |direction|
+    27: 						= render 'direction_fields', f: direction
+    28: 					.links
+    29: 						= link_to_add_association 'Add Step', f, :directions, class: "btn btn-default add-button"
+    30: 
+    31: 
+    32: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:29:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075565361960'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075565361960'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075652435860'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.1ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:39:29 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.6ms)
+  Rendered recipes/_form.html.haml (14.4ms)
+  Rendered recipes/new.html.haml within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_direction_fields, application/_direction_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    26: 					= f.simple_fields_for :directions do |direction|
+    27: 						= render 'direction_fields', f: direction
+    28: 					.links
+    29: 						= link_to_add_association 'Add Step', f, :directions, class: "btn btn-default add-button"
+    30: 
+    31: 
+    32: 		=f.button :submit, class: "btn btn-primary"
+  
+app/views/recipes/_form.html.haml:29:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075573948200'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075573948200'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075574113840'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.4ms)
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:40:47 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.4ms)
+  Rendered recipes/_direction_fields.html.haml (2.5ms)
+  Rendered recipes/_form.html.haml (16.0ms)
+  Rendered recipes/new.html.haml within layouts/application (17.3ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:40:48 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.6ms)
+  Rendered recipes/_direction_fields.html.haml (2.0ms)
+  Rendered recipes/_form.html.haml (15.9ms)
+  Rendered recipes/new.html.haml within layouts/application (17.1ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:43:00 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bRr1BuQT//KcI0ohkx2lnd68zdbF6PZp0WOTze5yLvT3Cb1FrEBNwKhWe7HfVD4cRV/HDkJkO8B8s99cB1YuWQ==", "recipe"=>{"title"=>"Pasta with ingredients and directions", "description"=>"blah blah blah", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f777ab9df40 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-21700-1p48g28.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"1488310975194"=>{"name"=>"first ig", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1jkp3rz.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1jkp3rz.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1jkp3rz.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/4fdfc5a66362d2d5140e773f93b0d84820170228-21700-1f9z9gy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1e3r7ai.jpg'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_form.html.haml (10.8ms)
+  Rendered recipes/new.html.haml within layouts/application (12.3ms)
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Missing partial recipes/_ingredients_fields, application/_ingredients_fields with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
+  * "/home/zoneman/Code/kindergarden/demo/rails-recipe-box/app/views"
+):
+    17: 				%h3 Ingredients
+    18: 				#ingredients
+    19: 					= f.simple_fields_for :ingredients do |ingredient|
+    20: 						= render 'ingredients_fields', f: ingredient
+    21: 					.links
+    22: 						= link_to_add_association 'Add Ingredient', f, :ingredients, class: "btn btn-default add-button"
+    23: 			.col-md-6
+  
+app/views/recipes/_form.html.haml:20:in `block (2 levels) in _app_views_recipes__form_html_haml__2154081556323532571_70075575783460'
+app/views/recipes/_form.html.haml:19:in `block in _app_views_recipes__form_html_haml__2154081556323532571_70075575783460'
+app/views/recipes/_form.html.haml:1:in `_app_views_recipes__form_html_haml__2154081556323532571_70075575783460'
+app/views/recipes/new.html.haml:3:in `_app_views_recipes_new_html_haml__85962161697962289_70075576937360'
+app/controllers/recipes_controller.rb:21:in `create'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:44:07 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bRr1BuQT//KcI0ohkx2lnd68zdbF6PZp0WOTze5yLvT3Cb1FrEBNwKhWe7HfVD4cRV/HDkJkO8B8s99cB1YuWQ==", "recipe"=>{"title"=>"Pasta with ingredients and directions", "description"=>"blah blah blah", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f777b063b38 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-21700-ft46ce.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"1488310975194"=>{"name"=>"first ig", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1xsuiq5.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1xsuiq5.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1xsuiq5.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/b97f0c354440a8c24b48c33f03e63efd20170228-21700-3mzi08'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-e4s662.jpg'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.4ms)
+  Rendered recipes/_ingredient_fields.html.haml (2.1ms)
+  Rendered recipes/_direction_fields.html.haml (2.1ms)
+  Rendered recipes/_form.html.haml (18.8ms)
+  Rendered recipes/new.html.haml within layouts/application (20.1ms)
+Completed 200 OK in 126ms (Views: 40.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:45:02 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"J2SzC5k4p6RJ4VhwB0x/BkXoqS1Ra8TRGVd2MCwxs6O9d/tI0WsVln2UaeBLBeSH3guj9dbnCXi0hzqhxRWzDg==", "recipe"=>{"title"=>"Pasta with ingredients and directions", "description"=>"blah blah blah", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f77799e32c8 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-21700-1l9yx5i.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"0"=>{"name"=>"first ig", "_destroy"=>"false"}, "1488311059444"=>{"name"=>"second ig", "_destroy"=>"false"}}, "directions_attributes"=>{"1488311064360"=>{"step"=>"                    mix first and second", "_destroy"=>"false"}, "1488311079371"=>{"step"=>"                    eat", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-w5v5zo.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-w5v5zo.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-w5v5zo.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/d88328ad91769903d89f5c673fc4e60e20170228-21700-gpyqpb'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-uptyg0.jpg'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.5ms)
+  Rendered recipes/_ingredient_fields.html.haml (1.5ms)
+  Rendered recipes/_ingredient_fields.html.haml (2.3ms)
+  Rendered recipes/_direction_fields.html.haml (2.5ms)
+  Rendered recipes/_direction_fields.html.haml (1.6ms)
+  Rendered recipes/_direction_fields.html.haml (2.2ms)
+  Rendered recipes/_form.html.haml (27.1ms)
+  Rendered recipes/new.html.haml within layouts/application (28.5ms)
+Completed 200 OK in 130ms (Views: 47.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2017-02-28 20:45:33 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (9.7ms)
+Completed 200 OK in 32ms (Views: 27.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:45:40 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.4ms)
+  Rendered recipes/_direction_fields.html.haml (2.4ms)
+  Rendered recipes/_form.html.haml (27.2ms)
+  Rendered recipes/new.html.haml within layouts/application (29.0ms)
+Completed 200 OK in 47ms (Views: 45.0ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:47:13 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Vz1/f+NqS4N5JAs6zMcS9UASMdgWxxGOvpmT6rjevJLNLjc8qzn5sU1ROqqAjol02/E7AJFL3CcTSd97Ufq8Pw==", "recipe"=>{"title"=>"Pasta with ingredients and directions", "description"=>"blah blah blah", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f777b6d2230 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-21700-1z10oee.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"1488311199536"=>{"name"=>"first ingredient", "_destroy"=>"false"}, "1488311199539"=>{"name"=>"second ingredient", "_destroy"=>"false"}}, "directions_attributes"=>{"1488311211847"=>{"step"=>"mix first and second ingredient", "_destroy"=>"false"}, "1488311211848"=>{"step"=>"eat                    ", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-k4wlxe.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-k4wlxe.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-k4wlxe.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/aee31ac1bbb83cf5f4e9f10aac39ac1820170228-21700-1tyt3bj'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-21700-1tef9y7.jpg'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (2.6ms)
+  Rendered recipes/_ingredient_fields.html.haml (1.7ms)
+  Rendered recipes/_ingredient_fields.html.haml (2.7ms)
+  Rendered recipes/_direction_fields.html.haml (2.6ms)
+  Rendered recipes/_direction_fields.html.haml (1.6ms)
+  Rendered recipes/_direction_fields.html.haml (2.5ms)
+  Rendered recipes/_form.html.haml (35.2ms)
+  Rendered recipes/new.html.haml within layouts/application (36.5ms)
+Completed 200 OK in 141ms (Views: 55.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2017-02-28 20:48:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (23.0ms)
+Completed 200 OK in 217ms (Views: 203.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:48:29 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (3.3ms)
+  Rendered recipes/_direction_fields.html.haml (2.9ms)
+  Rendered recipes/_form.html.haml (67.2ms)
+  Rendered recipes/new.html.haml within layouts/application (69.2ms)
+Completed 200 OK in 107ms (Views: 104.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:48:49 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zrQhOS/vv3mxAC89ZKQYPsHRXbWROqWnbXnctsJ+8vpUp2l6Z7wNS4V1Hq0o7YO/WjJXbRa2aA7AqZAnK1ryVw==", "recipe"=>{"title"=>"oaoa", "description"=>"oaoa", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6e4289b770 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-24306-1cdtji9.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"1488311320936"=>{"name"=>"asdas", "_destroy"=>"false"}, "1488311320939"=>{"name"=>"asdasda", "_destroy"=>"false"}}, "directions_attributes"=>{"1488311324982"=>{"step"=>"                    asdasdasdasd", "_destroy"=>"false"}, "1488311324983"=>{"step"=>"asdasdasdasdasda                    ", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1lr56yp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1lr56yp.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1lr56yp.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/8c66757e339319b0bd4e8bcf384057e220170228-24306-x6huxu'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1yeto57.jpg'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (3.0ms)
+  Rendered recipes/_ingredient_fields.html.haml (2.7ms)
+  Rendered recipes/_ingredient_fields.html.haml (2.8ms)
+  Rendered recipes/_direction_fields.html.haml (2.8ms)
+  Rendered recipes/_direction_fields.html.haml (2.2ms)
+  Rendered recipes/_direction_fields.html.haml (3.1ms)
+  Rendered recipes/_form.html.haml (33.2ms)
+  Rendered recipes/new.html.haml within layouts/application (35.2ms)
+Completed 200 OK in 168ms (Views: 75.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2017-02-28 20:53:11 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (17.9ms)
+Completed 200 OK in 60ms (Views: 52.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/recipes" for 127.0.0.1 at 2017-02-28 20:53:14 +0100
+Processing by RecipesController#index as HTML
+  Rendering recipes/index.html.haml within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "recipes"[0m
+  [1m[36mRecipe Load (0.1ms)[0m  [1m[34mSELECT "recipes".* FROM "recipes" ORDER BY created_at DESC[0m
+  Rendered recipes/index.html.haml within layouts/application (5.9ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/recipes/new" for 127.0.0.1 at 2017-02-28 20:53:17 +0100
+Processing by RecipesController#new as HTML
+  Rendering recipes/new.html.haml within layouts/application
+  Rendered recipes/_ingredient_fields.html.haml (3.1ms)
+  Rendered recipes/_direction_fields.html.haml (2.6ms)
+  Rendered recipes/_form.html.haml (32.2ms)
+  Rendered recipes/new.html.haml within layouts/application (34.1ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/recipes" for 127.0.0.1 at 2017-02-28 20:54:19 +0100
+Processing by RecipesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wo9PdxKH3b6uWqz5xa/FCP6B+m1XFdHPPpzd/hz8hy9YnAc0WtRvjJovnWmJ5l6JZWLwtdCZHGaTTJFv9diHgg==", "recipe"=>{"title"=>"Pasta with ingredients and directions", "description"=>"bla bla bla", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f6e4268cb50 @tempfile=#<Tempfile:/tmp/RackMultipart20170228-24306-13yf3uc.jpg>, @original_filename="pasta2.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"recipe[image]\"; filename=\"pasta2.jpg\"\r\nContent-Type: image/jpeg\r\n">, "ingredients_attributes"=>{"1488311629325"=>{"name"=>"first ingredient", "_destroy"=>"false"}, "1488311629328"=>{"name"=>"second ingredient", "_destroy"=>"false"}}, "directions_attributes"=>{"1488311640782"=>{"step"=>"mix first and second ingredient", "_destroy"=>"false"}, "1488311640784"=>{"step"=>"eat                    ", "_destroy"=>"false"}}}, "commit"=>"Create Recipe"}
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1sqw90g.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1sqw90g.jpg[0]'
+Command :: convert '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1sqw90g.jpg[0]' -auto-orient -resize "x400" -crop "400x400+155+0" +repage '/tmp/925277ca394ee02dc65c293f14d74e5e20170228-24306-9931r9'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Command :: file -b --mime '/tmp/c8c3998fab4dae554aebecea7b84119c20170228-24306-1hxh4m5.jpg'
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "recipes" ("title", "description", "created_at", "updated_at", "image_file_name", "image_content_type", "image_file_size", "image_updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Pasta with ingredients and directions"], ["description", "bla bla bla"], ["created_at", 2017-02-28 19:54:19 UTC], ["updated_at", 2017-02-28 19:54:19 UTC], ["image_file_name", "pasta2.jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 97839], ["image_updated_at", 2017-02-28 19:54:19 UTC]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "recipe_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "first ingredient"], ["recipe_id", 8], ["created_at", 2017-02-28 19:54:19 UTC], ["updated_at", 2017-02-28 19:54:19 UTC]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "ingredients" ("name", "recipe_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "second ingredient"], ["recipe_id", 8], ["created_at", 2017-02-28 19:54:19 UTC], ["updated_at", 2017-02-28 19:54:19 UTC]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "directions" ("step", "recipe_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["step", "mix first and second ingredient"], ["recipe_id", 8], ["created_at", 2017-02-28 19:54:19 UTC], ["updated_at", 2017-02-28 19:54:19 UTC]]
+  [1m[35mSQL (0.1ms)[0m  [1m[32mINSERT INTO "directions" ("step", "recipe_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["step", "eat                    "], ["recipe_id", 8], ["created_at", 2017-02-28 19:54:19 UTC], ["updated_at", 2017-02-28 19:54:19 UTC]]
+  [1m[35m (25.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/recipes/8
+Completed 302 Found in 110ms (ActiveRecord: 25.8ms)
+
+
+Started GET "/recipes/8" for 127.0.0.1 at 2017-02-28 20:54:19 +0100
+Processing by RecipesController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mRecipe Load (0.2ms)[0m  [1m[34mSELECT  "recipes".* FROM "recipes" WHERE "recipes"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  Rendering recipes/show.html.haml within layouts/application
+  Rendered recipes/show.html.haml within layouts/application (2.1ms)
+Completed 200 OK in 29ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
